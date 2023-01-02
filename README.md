@@ -9,4 +9,4 @@ We are looking to build this collective project around building a modern concept
 ## Editors
 
 - Admin [JUNKJACKZACK](https://github.com/JUNKJACKZACK)
-- Contributor [grombog](https://github.com/grombog)
+- Admin [grombog](https://github.com/grombog)
