@@ -34,9 +34,25 @@ body {
 }
 
 
+.introduction h2 {
+	text-align: center;
+}
+
+
+.text-box {
+	display: flex;
+	justify-content: center;
+}
+
+
+.text-box p {
+	text-align: center;
+	width: 400px;
+}
+
 form {
 	margin: 0 auto;
-	padding-top: 200px;
+	padding-top: 20px;
 	width: 250px;
 }
 
