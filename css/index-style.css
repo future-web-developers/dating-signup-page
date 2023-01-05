@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+}
+
+
+.nav-bar {
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	background-color: #e6177a;
+}
+
+
+.nav-brand {
+	color: ghostwhite;
+}
+
+.nav-links {
+	display: flex;
+	list-style: none;
+	padding-right: 30px;
+}
+
+.nav-item a{
+	display: inline-block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: ghostwhite;
+}
+
+
+
+
