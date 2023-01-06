@@ -9,9 +9,4 @@ Welcome! This is a collective project of well-rounded folks from the [ZTM](https
 ## The Project
 We are looking to build this collective project around building a modern concept of a dating website sign up page. There will be no real world function of the site as of now but just a fun project to build. If you are here and want to particpate you can fork the project and offer changes by creating a pull request that you think will better the project.  
 
-## Editors
-
-- Admin [JUNKJACKZACK](https://github.com/JUNKJACKZACK)
-- Admin [grombog](https://github.com/grombog)
-- Contributor [mauroarcidiacono](https://github.com/mauroarcidiacono)
 
