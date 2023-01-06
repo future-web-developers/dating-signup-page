@@ -1,228 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Dating Site</title>
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <!-- Style.css -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- Favicon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Background -->
-    <link rel="preload" href="img/couplepic.jpg" as="image">
-
-</head>
-<body>
-
-    <!-- Navigation bar -->
-    <nav class="navbar navbar-light" style="background-color: #e6177a;">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand nav-brand" href="index.html">Developer Hotties</a>
-            </div>
-            <ul class="nav navbar-nav navbar-right nav-item">
-                <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
-            </ul>
-        </div>
-    </nav>
-    <br><br>
-
-    <!-- Introduction to the website -->
-    <div class="introduction">
-        <h1>Welcome!</h1>
-        <div class="text-box">
-            <p>You have been looking for another developer that loves coding as much as <strong>You</strong>
-                in all the wrong places. This is not Tinder this is Developer Hotties. You will
-                find the perfect developer you have been hoping to fall in love with. What are
-                you waiting for just sign up and find your developer hottie.
-            </p>
-        </div>
+  <head>
+    <title>Developer Hotties</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">    <!-- My own stylesheet -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-xxl">
+      <div class="row">
+        <header class="text-center">
+          <h1>Developer Hotties</h1>
+        </header>
+        
+          <hr>
+          <h2>Do you know what is similar between a partner and a programmer? They both fix problems you didnt know you had, in a way you don’t understand.</h2>
+    
+          <button class="button-87" role="button">Find Out More</button>
+          <hr>
+          <button class="button-87" role="button">Early Access</button>
+          <hr>
+      </div>
     </div>
-    <br>
-
-    <!-- Couple img -->
-    <img src="img/couplepic.jpg" alt="" class="img-fluid">
-    <br><br>
-
-    <!-- Form to sign up -->
-    <h2 class="signuptitle">Sign up to find your dev partner!</h2>
-    <br>
-    <div class="container-md">
-        <form class="signupform">
-            <!-- 2 column grid layout with text inputs for the first and last names -->
-            <div class="row mb-4">
-            <div class="col">
-                <div class="form-outline">
-                <input type="text" id="form3Example1" class="form-control" />
-                <label class="form-label" for="form3Example1">First name</label>
-                </div>
-            </div>
-            <div class="col">
-                <div class="form-outline">
-                <input type="text" id="form3Example2" class="form-control" />
-                <label class="form-label" for="form3Example2">Last name</label>
-                </div>
-            </div>
-            </div>
-
-            <div class="form-outline mb-4">
-                <input type="text" id="form3Example2" class="form-control" />
-                <label class="form-label" for="form3Example2">Username</label>
-            </div>
-        
-            <!-- Email input -->
-            <div class="form-outline mb-4">
-            <input type="email" id="form3Example3" class="form-control" />
-            <label class="form-label" for="form3Example3">Email address</label>
-            </div>
-        
-            <!-- Password input -->
-            <div class="form-outline mb-4">
-            <input type="password" id="form3Example4" class="form-control" />
-            <label class="form-label" for="form3Example4">Password</label>
-            </div>
-            
-            <!-- Gender input -->
-            <p>I identify myself as ...</p>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">
-                    Male
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                <label class="form-check-label" for="flexRadioDefault2">
-                    Female
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                <label class="form-check-label" for="flexRadioDefault2">
-                    Other
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                <label class="form-check-label" for="flexRadioDefault2">
-                    Prefer not to say
-                </label>
-            </div>
-            <br>
-
-            <!-- Gender interest -->
-            <p>I am interested in ...</p>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadio" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">
-                    Males
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadio" id="flexRadioDefault2" checked>
-                <label class="form-check-label" for="flexRadioDefault2">
-                    Females
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadio" id="flexRadioDefault2" checked>
-                <label class="form-check-label" for="flexRadioDefault2">
-                    Others
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadio" id="flexRadioDefault2" checked>
-                <label class="form-check-label" for="flexRadioDefault2">
-                    I don't have a preference
-                </label>
-            </div>
-            <br><br>
-
-            <!-- Checkbox -->
-            <div class="form-check d-flex justify-content-center mb-4">
-            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
-            <label class="form-check-label" for="form2Example33">
-                Subscribe to our newsletter
-            </label>
-            </div>
-        
-            <!-- Submit button -->
-            <div class="text-center">
-                <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
-            </div>
-        
-            <!-- Register buttons -->
-            <div class="text-center">
-            <p>or sign up with:</p>
-            <button type="button" class="btn btn-secondary btn-floating mx-1">
-                <i class="fab fa-facebook-f"></i>
-            </button>
-        
-            <button type="button" class="btn btn-secondary btn-floating mx-1">
-                <i class="fab fa-google"></i>
-            </button>
-        
-            <button type="button" class="btn btn-secondary btn-floating mx-1">
-                <i class="fab fa-twitter"></i>
-            </button>
-        
-            <button type="button" class="btn btn-secondary btn-floating mx-1">
-                <i class="fab fa-github"></i>
-            </button>
-            </div>
-        </form>
-    </div>
-
-    <!-- Footer -->
-    <div class="container">
-        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-          <div class="col mb-3">
-            <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-            </a>
-            <p class="text-muted">&copy; 2023 DevH Inc.</p>
-          </div>
-      
-          <div class="col mb-3">
-      
-          </div>
-      
-          <div class="col mb-3">
-            <h5>Index</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mission</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Careers</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Press</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
-            </ul>
-          </div>
-      
-          <div class="col mb-3">
-            <h5>Resources</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Safe Dating Tips</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQ</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trust & Safety</a></li>
-            </ul>
-          </div>
-      
-          <div class="col mb-3">
-            <h5>Legal</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Security</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cookie Policy</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy</a></li>
-            </ul>
-          </div>
-        </footer>
-    </div>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  
+  </body>
 </html>
