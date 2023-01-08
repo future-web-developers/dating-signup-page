@@ -51,7 +51,7 @@
     <h2 class="signuptitle" id="register">Sign up to find your dev partner!</h2>
     <br>
     <div class="container-md">
-        <form class="signupform">
+        <form class="signupform" action="register-script.js" onsubmit="return checkUserAge()">
             <!-- 2 column grid layout with text inputs for the first and last names -->
             <div class="row mb-4">
             <div class="col">
@@ -69,6 +69,14 @@
                 </div>
             </div>
             </div>
+
+            <div class="form-outline mb-4">
+                Date of Birth
+                <input type="date" id="user-age" class="form-control" />
+                <label class="form-label" for="form3Example2"></label>
+            </div>
+
+            <script src="register-script.js"></script>
 
             <div class="form-outline mb-4">
                 Username
